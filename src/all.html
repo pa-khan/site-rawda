@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	 <meta charset="UTF-8">
+	 <title>Title</title>
+	 <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+	 <link rel="stylesheet" href="template/styles/css/style.css" />
+	 <link rel="stylesheet" href="template/styles/css/responsive.css" />
+	 <script src="template/scripts/libs.js"></script>
+	 <script src="template/scripts/common.js"></script>
+	 <!--[if lt IE 9]>
+	 <script>
+		 document.createElement('header');
+		 document.createElement('nav');
+		 document.createElement('main');
+		 document.createElement('section');
+		 document.createElement('article');
+		 document.createElement('aside');
+		 document.createElement('footer');
+	 </script>
+	 <![endif]-->
+</head>
+<body>
+<div class="mobile-nav">
+	<div class="panel__nav nav">
+		 <ul>
+			 <li><a href="">Главная</a></li>
+			 <li><a href="">Туры</a></li>
+			 <li class="selected"><a href="">Новости</a></li>
+			 <li><a href="">Авиабилеты</a></li>
+			 <li><a href="">Виза</a></li>
+			 <li class="hidden-1650"><a href="">Новости</a></li>
+			 <li class="hidden-1650"><a href="">Статьи</a></li>
+			 <li class="hidden-1650"><a href="">Компания</a></li>
+			 <li><a href="">Контакты</a></li>
+		 </ul>
+	 </div>
+	 <div class="panel__lang lang">
+		 <div class="lang__title"><img src="upload/lang/eng.png" alt=""><span>ENG</span></div>
+		 <div class="lang__switch">
+			 <ul>
+				 <li><a href=""><img src="upload/lang/eng.png" alt=""><span>RUS</span></a></li>
+				 <li><a href=""><img src="upload/lang/eng.png" alt=""><span>ESP</span></a></li>
+			 </ul>
+		 </div>
+	 </div>
+	 <div class="panel__phone phone">
+		 <div class="panel__number number number_black"><i class="icon icon-phone-red"></i><a href="tel:+78004554545">8 800 455 45 45</a></div>
+		 <div class="panel__callback callback callback_red"><a data-fancybox data-src="#popup-callback" href="javascript:;">Заказать звонок</a></div>
+	 </div>
+</div>
+<header class="header">
+	 <div class="panel">
+		 <div class="case case_more">
+			 <div class="panel__wrap row i-mid">
+				 <a href="" class="panel__logo logo logo_color"><img src="upload/logo/logo-color.png" alt="" class="logo__img"><span class="logo__text">Сервис поиска недорогих туров</span></a>
+				 <div class="panel__nav nav">
+					 <ul>
+						 <li><a href="">Главная</a></li>
+						 <li><a href="">Туры</a></li>
+						 <li class="selected"><a href="">Новости</a></li>
+						 <li><a href="">Авиабилеты</a></li>
+						 <li><a href="">Виза</a></li>
+						 <li class="hidden-1650"><a href="">Новости</a></li>
+						 <li class="hidden-1650"><a href="">Статьи</a></li>
+						 <li class="hidden-1650"><a href="">Компания</a></li>
+						 <li><a href="">Контакты</a></li>
+					 </ul>
+				 </div>
+				 <div class="panel__lang lang">
+					 <div class="lang__title"><img src="upload/lang/eng.png" alt=""><span>ENG</span></div>
+					 <div class="lang__switch">
+						 <ul>
+							 <li><a href=""><img src="upload/lang/eng.png" alt=""><span>RUS</span></a></li>
+							 <li><a href=""><img src="upload/lang/eng.png" alt=""><span>ESP</span></a></li>
+						 </ul>
+					 </div>
+				 </div>
+				 <div class="panel__phone phone">
+					 <div class="panel__number number number_black"><i class="icon icon-phone-red"></i><a href="tel:+78004554545">8 800 455 45 45</a></div>
+					 <div class="panel__callback callback callback_red"><a data-fancybox data-src="#popup-callback" href="javascript:;">Заказать звонок</a></div>
+				 </div>
+				 <div class="mobile-btn">
+				 		<span></span>
+				 		<span></span>
+				 		<span></span>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+</header>
+
+<main class="main">
+	<div class="banner">
+		 <div class="banner__text">
+			 <div class="banner__title">Сэкономьте на турах! Мы покажем все, а вы только выберите лучший</div>
+			 <div class="banner__desc">Разумный способ путешествовать и при этом сэкономить</div>
+		 </div>
+		 <div class="banner__data">
+			 <div class="case">
+				 <div class="banner__data-wrap row">
+					 <div class="banner__input banner__input_address input input_default">
+						 <div class="input__icon"><i class="icon icon-marker"></i></div>
+						 <div class="input__content">
+							 <input type="text" class="input__wrap">
+							 <label for="" class="input__title">Откуда</label>
+						 </div>
+					 </div>
+					 <div class="banner__input banner__input_address input input_default">
+						 <div class="input__icon"><i class="icon icon-marker"></i></div>
+						 <div class="input__content">
+							 <input type="text" class="input__wrap">
+							 <label for="" class="input__title">Куда</label>
+						 </div>
+					 </div>
+					 <div class="banner__input banner__input_date input input_default input_date">
+						 <div class="input__icon"><i class="icon icon-calendar"></i></div>
+						 <div class="input__content">
+							 <input type="text" class="input__wrap">
+							 <label for="" class="input__title">Туда</label>
+						 </div>
+					 </div>
+					 <div class="banner__input banner__input_date input input_default input_date">
+						 <div class="input__icon"><i class="icon icon-calendar"></i></div>
+						 <div class="input__content">
+							 <input type="text" class="input__wrap">
+							 <label for="" class="input__title">Обратно</label>
+						 </div>
+					 </div>
+					 <button class="banner__btn btn btn_red btn_hover-bg-white btn_hover-border-white"><i class="icon icon-magnifying-glass-white"></i><span>Найти</span></button>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	 <div class="case">
+		 <div class="tours-main">
+			 <div class="tours-main__head">
+				 <div class="tours-main__title title title_mid">Туры</div>
+				 <div class="tours-main__link"><a href="">Все туры</a></div>
+			 </div>
+			 <div class="tours-main__body">
+				 <div class="tours-main__list row between">
+					 <div class="tours-main__item">
+						 <div class="tours-main__img"><img src="upload/tours/1.png" alt=""></div>
+						 <div class="tours-main__content row between">
+							 <div class="tours-main__data">
+								 <div class="tours-main__name">Тайланд</div>
+								 <div class="tours-main__price">19 990 ₽</div>
+							 </div>
+							 <a href="" class="tours-main__btn btn btn_border-gold btn_normal btn_hover-bg-red">Подробнее</a>
+						 </div>
+					 </div>
+					 <div class="tours-main__item">
+						 <div class="tours-main__img"><img src="upload/tours/2.png" alt=""></div>
+						 <div class="tours-main__content row between">
+							 <div class="tours-main__data">
+								 <div class="tours-main__name">Пекин</div>
+								 <div class="tours-main__price">32 990 ₽</div>
+							 </div>
+							 <a href="" class="tours-main__btn btn btn_border-gold btn_normal btn_hover-bg-red">Подробнее</a>
+						 </div>
+					 </div>
+					 <div class="tours-main__item">
+						 <div class="tours-main__img"><img src="upload/tours/3.png" alt=""></div>
+						 <div class="tours-main__content row between">
+							 <div class="tours-main__data">
+								 <div class="tours-main__name">Шри-Ланка</div>
+								 <div class="tours-main__price">25 990 ₽</div>
+							 </div>
+							 <a href="" class="tours-main__btn btn btn_border-gold btn_normal btn_hover-bg-red">Подробнее</a>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+		 <div class="articles-main row">
+			 <div class="articles-main__item news">
+				 <div class="news__title title">Новости</div>
+				 <div class="news__list news__list_small row">
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Противоположная точка зрения подразумевает, что независимые государства, превозмогая</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/2.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Прародителем текста-рыбы является известный "Lorem Ipsum" – латинский текст, ноги которого</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/3.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Сервисов по созданию случайного текста на основе Lorem Ipsumсложившуюся непростую</a></div>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+			 <div class="articles-main__item news">
+				 <div class="news__title title">Статьи</div>
+				 <div class="news__list news__list_big row">
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/big/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Что взять с собой в Сибирь, как подготовиться к поездке?</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/big/2.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Полёт на воздушном шаре, где можно осуществить мечту.</a></div>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	 <div class="visa">
+		 <div class="case">
+			 <div class="visa__wrap row">
+				 <div class="visa__img"><img src="upload/man.png" alt=""></div>
+				 <div class="visa__content">
+					 <div class="visa__title title">Оформление визы</div>
+					 <div class="visa__text">Значимость этих проблем настолько очевидна, что убежденность некоторых оппонентов предопределяет высокую востребованность новых принципов формирования материально-технической и кадровой базы. Следует отметить, что существующая теория играет важную роль в формировании глубокомысленных рассуждений. Как принято считать, акционеры крупнейших компаний являются только методом политического участия и представлены в исключительно положительном свете. </div>
+					 <a href="" class="visa__btn btn btn_border-red btn_normal btn_hover-bg-red">Подробнее</a>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	 <div class="case">
+		 <div class="advantages">
+			 <div class="advantages__title title title_mid">Преимущества</div>
+			 <div class="advantages__list row mid top">
+				 <div class="advantages__item">
+					 <div class="advantages__icon"><i class="icon icon-leadership"></i></div>
+					 <div class="advantages__text">Встреча и сопровождение опытными руководителями</div>
+				 </div>
+				 <div class="advantages__item">
+					 <div class="advantages__icon"><i class="icon icon-books"></i></div>
+					 <div class="advantages__text">Книга или обучение</div>
+				 </div>
+				 <div class="advantages__item">
+					 <div class="advantages__icon"><i class="icon icon-delivery"></i></div>
+					 <div class="advantages__text">Подарок</div>
+				 </div>
+				 <div class="advantages__item">
+					 <div class="advantages__icon"><i class="icon icon-visa"></i></div>
+					 <div class="advantages__text">Оформление визы</div>
+				 </div>
+				 <div class="advantages__item">
+					 <div class="advantages__icon"><i class="icon icon-car"></i></div>
+					 <div class="advantages__text">Транcфер</div>
+				 </div>
+				 <div class="advantages__item">
+					 <div class="advantages__icon"><i class="icon icon-diplom"></i></div>
+					 <div class="advantages__text">Договор с фирмой</div>
+				 </div>
+				 <div class="advantages__item">
+					 <div class="advantages__icon"><i class="icon icon-guide"></i></div>
+					 <div class="advantages__text">Туры по достопримечательностям</div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	 <div class="media">
+		 <div class="case">
+			 <div class="media__title title title_mid">Следите за нашими новостями</div>
+			 <div class="media__list row">
+				 <div class="media__item">
+					 <div class="media__head"><i class="icon icon-youtube-red"></i><span>Youtube</span></div>
+					 <div class="media__body youtube">
+						 <div class="youtube__item"><iframe width="555" height="266" src="https://www.youtube.com/embed/fTK0hhBiCgA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+						 <div class="youtube__item"><iframe width="555" height="266" src="https://www.youtube.com/embed/fTK0hhBiCgA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+					 </div>
+				 </div>
+				 <div class="media__item">
+					 <div class="media__head"><i class="icon icon-instagram-red"></i><span>Instagram</span></div>
+					 <div class="media__body instagram">
+						 <div class="instagram__item"><a href=""><img src="upload/instagram/1.png" alt=""></a></div>
+						 <div class="instagram__item"><a href=""><img src="upload/instagram/2.png" alt=""></a></div>
+						 <div class="instagram__item"><a href=""><img src="upload/instagram/1.png" alt=""></a></div>
+						 <div class="instagram__item"><a href=""><img src="upload/instagram/2.png" alt=""></a></div>
+						 <div class="instagram__item"><a href=""><img src="upload/instagram/3.png" alt=""></a></div>
+						 <div class="instagram__item"><a href=""><img src="upload/instagram/4.png" alt=""></a></div>
+						 <div class="instagram__item"><a href=""><img src="upload/instagram/5.png" alt=""></a></div>
+						 <div class="instagram__item"><a href=""><img src="upload/instagram/6.png" alt=""></a></div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	 <div class="countries">
+		 <div class="case">
+			 <div class="countries__title title title_mid">Путеводитель по странам</div>
+			 <div class="countries__list row">
+				 <ul>
+					<li><img src="upload/countries/1.png" alt=""><a href="">Россия</a></li>
+					<li><img src="upload/countries/2.png" alt=""><a href="">Египет</a></li>
+					<li><img src="upload/countries/3.png" alt=""><a href="">Турция</a></li>
+					<li><img src="upload/countries/4.png" alt=""><a href="">Вьетнам</a></li>
+					<li><img src="upload/countries/5.png" alt=""><a href="">Израиль</a></li>
+					<li><img src="upload/countries/6.png" alt=""><a href="">Индия</a></li>
+					<li><img src="upload/countries/7.png" alt=""><a href="">Индонезия</a></li>
+					<li><img src="upload/countries/8.png" alt=""><a href="">Иордания</a></li>
+					<li><img src="upload/countries/9.png" alt=""><a href="">Доминиканы</a></li>
+					<li><img src="upload/countries/10.png" alt=""><a href="">Кипр</a></li>
+					<li><img src="upload/countries/11.png" alt=""><a href="">Китай</a></li>
+					<li><img src="upload/countries/12.png" alt=""><a href="">Куба</a></li>
+					<li><img src="upload/countries/13.png" alt=""><a href="">Маврикий</a></li>
+					<li><img src="upload/countries/14.png" alt=""><a href="">Мальдивы</a></li>
+					<li><img src="upload/countries/15.png" alt=""><a href="">Марокко</a></li>
+					<li><img src="upload/countries/16.png" alt=""><a href="">Мексика</a></li>
+					<li><img src="upload/countries/17.png" alt=""><a href="">Тайланд</a></li>
+					<li><img src="upload/countries/18.png" alt=""><a href="">Шри-Ланка</a></li>
+					<li><img src="upload/countries/19.png" alt=""><a href="">ОАЭ</a></li>
+					<li><img src="upload/countries/20.png" alt=""><a href="">Тунис</a></li>
+					<li><img src="upload/countries/21.png" alt=""><a href="">Сейшелы</a></li>
+					<li><img src="upload/countries/22.png" alt=""><a href="">Черногория</a></li>
+					<li><img src="upload/countries/23.png" alt=""><a href="">Ямайка</a></li>
+					<li><img src="upload/countries/24.png" alt=""><a href="">Болгария</a></li>
+					<li><img src="upload/countries/25.png" alt=""><a href="">Греция</a></li>
+					<li><img src="upload/countries/26.png" alt=""><a href="">Испания</a></li>
+					<li><img src="upload/countries/27.png" alt=""><a href="">Италия</a></li>
+					<li><img src="upload/countries/28.png" alt=""><a href="">Хорватия</a></li>
+					<li><img src="upload/countries/29.png" alt=""><a href="">Абхазия</a></li>
+					<li><img src="upload/countries/30.png" alt=""><a href="">Беларусь</a></li>
+					<li><img src="upload/countries/31.png" alt=""><a href="">Чехия</a></li>
+					<li><img src="upload/countries/32.png" alt=""><a href="">Франция</a></li>
+					<li><img src="upload/countries/33.png" alt=""><a href="">Австрия</a></li>
+					<li><img src="upload/countries/34.png" alt=""><a href="">Армения</a></li>
+					<li><img src="upload/countries/35.png" alt=""><a href="">Грузия</a></li>
+					<li><img src="upload/countries/36.png" alt=""><a href="">Андорра</a></li>
+					<li><img src="upload/countries/37.png" alt=""><a href="">Мальта</a></li>
+					<li><img src="upload/countries/38.png" alt=""><a href="">Финляндия</a></li>
+					<li><img src="upload/countries/39.png" alt=""><a href="">Швейцария</a></li>
+				 </ul>
+			 </div>
+		 </div>
+	 </div>
+	 <div class="page">
+		 <div class="case">
+			 <div class="breadcrumbs">
+				 <ul>
+					 <li><a href="">Главная</a></li>
+					 <li>Туры</li>
+				 </ul>
+			 </div>
+			 <div class="page__title title">Статьи</div>
+			 <div class="page__wrap">
+				 <div class="news">
+					 <div class="news__list news__list_big news__list_page row">
+						 <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/1.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Что взять с собой в Сибирь, как подготовиться к поездке?</a></div>
+							 </div>
+						 </div>
+						 <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/2.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Полёт на воздушном шаре, где можно осуществить мечту.</a></div>
+							 </div>
+						 </div>
+						  <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/1.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Что взять с собой в Сибирь, как подготовиться к поездке?</a></div>
+							 </div>
+						 </div>
+						 <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/2.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Полёт на воздушном шаре, где можно осуществить мечту.</a></div>
+							 </div>
+						 </div>
+						  <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/1.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Что взять с собой в Сибирь, как подготовиться к поездке?</a></div>
+							 </div>
+						 </div>
+						 <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/2.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Полёт на воздушном шаре, где можно осуществить мечту.</a></div>
+							 </div>
+						 </div>
+						  <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/1.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Что взять с собой в Сибирь, как подготовиться к поездке?</a></div>
+							 </div>
+						 </div>
+						 <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/2.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Полёт на воздушном шаре, где можно осуществить мечту.</a></div>
+							 </div>
+						 </div>
+					 </div>
+					 <div class="news__pagination pagination">
+						 <ul>
+							 <li><a href="">1</a></li>
+							 <li class="selected"><a href="">2</a></li>
+							 <li><a href="">3</a></li>
+							 <li><a href="">...</a></li>
+							 <li><a href="">23</a></li>
+						 </ul>
+					 </div>
+				 </div>
+				 <div class="tours">
+					 <div class="tours__labels">
+					 	<ul>
+							<li><a href="">Россия-Египет</a></li>
+							<li><a href="">Россия-Швеция</a></li>
+							<li class="selected"><a href="">Япония-Турция</a></li>
+							<li><a href="">Москва-Крым</a></li>
+							<li><a href="">Россия-Египет</a></li>
+							<li><a href="">Россия-Швеция</a></li>
+							<li><a href="">Япония-Турция</a></li>
+							<li><a href="">Москва-Крым</a></li>
+							<li><a href="">Россия-Египет</a></li>
+							<li><a href="">Россия-Швеция</a></li>
+							<li><a href="">Япония-Турция</a></li>
+							<li><a href="">Москва-Крым</a></li>
+							<li><a href="">Россия-Египет</a></li>
+							<li><a href="">Россия-Швеция</a></li>
+						</ul>
+					 </div>
+					 <div class="tours__list row between">
+						 <div class="tours__item">
+							 <div class="tours__img"><img src="upload/tours/1.png" alt=""></div>
+							 <div class="tours__content">
+								 <div class="tours__data row between">
+									 <div class="tours__name">Тайланд - Пхукет</div>
+									 <div class="tours__date">15 мая - 16 июня</div>
+								 </div>
+								 <div class="tours__price">19 990 ₽</div>
+								 <div class="tours__text">Идейные соображения высшего порядка, а также синтетическое тестирование играет важную роль в формировании экспериментов, поражающих по своей масштабности и грандиозности.</div>
+								 <a href="" class="tours__btn btn btn_red btn_normal btn_hover-border-red">Подробнее</a>
+							 </div>
+						 </div>
+						 <div class="tours__item">
+							 <div class="tours__img"><img src="upload/tours/2.png" alt=""></div>
+							 <div class="tours__content">
+								 <div class="tours__data row between">
+									 <div class="tours__name">Тайланд - Пхукет</div>
+									 <div class="tours__date">15 мая - 16 июня</div>
+								 </div>
+								 <div class="tours__price">19 990 ₽</div>
+								 <div class="tours__text">Идейные соображения высшего порядка, а также синтетическое тестирование играет важную роль в формировании экспериментов, поражающих по своей масштабности и грандиозности.</div>
+								 <a href="" class="tours__btn btn btn_red btn_normal btn_hover-border-red">Подробнее</a>
+							 </div>
+						 </div>
+						 <div class="tours__item">
+							 <div class="tours__img"><img src="upload/tours/3.png" alt=""></div>
+							 <div class="tours__content">
+								 <div class="tours__data row between">
+									 <div class="tours__name">Тайланд - Пхукет</div>
+									 <div class="tours__date">15 мая - 16 июня</div>
+								 </div>
+								 <div class="tours__price">19 990 ₽</div>
+								 <div class="tours__text">Идейные соображения высшего порядка, а также синтетическое тестирование играет важную роль в формировании экспериментов, поражающих по своей масштабности и грандиозности.</div>
+								 <a href="" class="tours__btn btn btn_red btn_normal btn_hover-border-red">Подробнее</a>
+							 </div>
+						 </div>
+						 <div class="tours__item">
+							 <div class="tours__img"><img src="upload/tours/1.png" alt=""></div>
+							 <div class="tours__content">
+								 <div class="tours__data row between">
+									 <div class="tours__name">Тайланд - Пхукет</div>
+									 <div class="tours__date">15 мая - 16 июня</div>
+								 </div>
+								 <div class="tours__price">19 990 ₽</div>
+								 <div class="tours__text">Идейные соображения высшего порядка, а также синтетическое тестирование играет важную роль в формировании экспериментов, поражающих по своей масштабности и грандиозности.</div>
+								 <a href="" class="tours__btn btn btn_red btn_normal btn_hover-border-red">Подробнее</a>
+							 </div>
+						 </div>
+						 <div class="tours__item">
+							 <div class="tours__img"><img src="upload/tours/2.png" alt=""></div>
+							 <div class="tours__content">
+								 <div class="tours__data row between">
+									 <div class="tours__name">Тайланд - Пхукет</div>
+									 <div class="tours__date">15 мая - 16 июня</div>
+								 </div>
+								 <div class="tours__price">19 990 ₽</div>
+								 <div class="tours__text">Идейные соображения высшего порядка, а также синтетическое тестирование играет важную роль в формировании экспериментов, поражающих по своей масштабности и грандиозности.</div>
+								 <a href="" class="tours__btn btn btn_red btn_normal btn_hover-border-red">Подробнее</a>
+							 </div>
+						 </div>
+						 <div class="tours__item">
+							 <div class="tours__img"><img src="upload/tours/3.png" alt=""></div>
+							 <div class="tours__content">
+								 <div class="tours__data row between">
+									 <div class="tours__name">Тайланд - Пхукет</div>
+									 <div class="tours__date">15 мая - 16 июня</div>
+								 </div>
+								 <div class="tours__price">19 990 ₽</div>
+								 <div class="tours__text">Идейные соображения высшего порядка, а также синтетическое тестирование играет важную роль в формировании экспериментов, поражающих по своей масштабности и грандиозности.</div>
+								 <a href="" class="tours__btn btn btn_red btn_normal btn_hover-border-red">Подробнее</a>
+							 </div>
+						 </div>
+					 </div>
+					 <div class="tours__pagination pagination">
+						 <ul>
+							 <li><a href="">1</a></li>
+							 <li class="selected"><a href="">2</a></li>
+							 <li><a href="">3</a></li>
+							 <li><a href="">...</a></li>
+							 <li><a href="">23</a></li>
+						 </ul>
+					 </div>
+				 </div>
+				 <div class="article row">
+					 <div class="article__wrap text">
+						 <p>Безусловно, граница обучения кадров в значительной степени обусловливает важность модели развития. Следует отметить, что внедрение современных методик влечет за собой процесс внедрения и модернизации экономической целесообразности принимаемых решений. Каждый из нас понимает очевидную вещь: современная методология разработки играет определяющее значение для стандартных подходов. Безусловно, граница обучения кадров в значительной степени обусловливает важность модели развития. Следует отметить, что внедрение современных методик влечет за собой процесс внедрения и модернизации экономической целесообразности принимаемых решений. Каждый из нас понимает очевидную вещь: современная методология разработки играет определяющее значение для стандартных подходов.</p>
+						 <h2>Заголовок</h2>
+						 <p>Безусловно, граница обучения кадров в значительной степени обусловливает важность модели развития. Следует отметить, что внедрение современных методик влечет за собой процесс внедрения и модернизации экономической целесообразности принимаемых решений. Каждый из нас понимает очевидную вещь: современная методология разработки играет определяющее значение для стандартных подходов. Безусловно, граница обучения кадров в значительной степени обусловливает важность модели развития. Следует отметить, что внедрение современных методик влечет за собой процесс внедрения и модернизации экономической целесообразности принимаемых решений. Каждый из нас понимает очевидную вещь: современная методология разработки играет определяющее значение для стандартных подходов.</p>
+						 <h2>Заголовок</h2>
+						 <p>Безусловно, граница обучения кадров в значительной степени обусловливает важность модели развития. Следует отметить, что внедрение современных методик влечет за собой процесс внедрения и модернизации экономической целесообразности принимаемых решений. Каждый из нас понимает очевидную вещь: современная методология разработки играет определяющее значение для стандартных подходов. Безусловно, граница обучения кадров в значительной степени обусловливает важность модели развития. Следует отметить, что внедрение современных методик влечет за собой процесс внедрения и модернизации экономической целесообразности принимаемых решений. Каждый из нас понимает очевидную вещь: современная методология разработки играет определяющее значение для стандартных подходов.</p>
+					 </div>
+					 <div class="article__more">
+					 	<div class="article__subtitle subtitle">Читайте также</div>
+					 	<div class="news__list news__list_big news__list_page row">
+						 <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/1.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Что взять с собой в Сибирь, как подготовиться к поездке?</a></div>
+							 </div>
+						 </div>
+						 <div class="news__item">
+							 <div class="news__img"><img src="upload/articles/big/2.png" alt=""></div>
+							 <div class="news__content">
+								 <div class="news__date">12: 34 / 07.05.2018</div>
+								 <div class="news__text"><a href="">Полёт на воздушном шаре, где можно осуществить мечту.</a></div>
+							 </div>
+						 </div>
+					 	</div>
+					 </div>
+				 </div>
+				 <div class="tour">
+					 <div class="tour__wrap row between">
+						 <div class="tour__left">
+							 <div class="tour__img">
+								 <div class="tour__img-item"><img src="upload/img.png" alt=""></div>
+								 <div class="tour__img-item"><img src="upload/img.png" alt=""></div>
+								 <div class="tour__img-item"><img src="upload/img.png" alt=""></div>
+							 </div>
+							 <div class="tour__imgs">
+								 <div class="tour__imgs-item"><img src="upload/img.png" alt=""></div>
+								 <div class="tour__imgs-item"><img src="upload/img.png" alt=""></div>
+								 <div class="tour__imgs-item"><img src="upload/img.png" alt=""></div>
+							 </div>
+						 </div>
+						 <div class="tour__right">
+							 <div class="tour__data">
+								 <div class="tour__title title">Шри-Ланка</div>
+								 <div class="tour__dates dates">28 дней <span>12 мая - 10 июня</span></div>
+								 <div class="tour__price">34 990 ₽</div>
+								 <a href="" class="tour__btn btn btn_red btn_normal btn_hover-border-red">Подать заявку</a>
+								 <div class="tour__icons icons row">
+									 <div class="icons__item">
+										 <div class="icons__wrap"><i class="icon icon-wifi"></i></div>
+										 <div class="icons__text">Бесплатный Wi-Fi</div>
+									 </div>
+									 <div class="icons__item">
+										 <div class="icons__wrap"><i class="icon icon-flight-departures"></i></div>
+										 <div class="icons__text">50 км до аэропорта</div>
+									 </div>
+									 <div class="icons__item">
+										 <div class="icons__wrap"><i class="icon icon-sea"></i></div>
+										 <div class="icons__text">300 м до моря</div>
+									 </div>
+									 <div class="icons__item">
+										 <div class="icons__wrap"><i class="icon icon-muslim"></i></div>
+										 <div class="icons__text">40 м до мечети</div>
+									 </div>
+								 </div>
+								 <div class="tour__text">Также как семантический разбор внешних противодействий требует от нас анализа своевременного выполнения сверхзадачи. Лишь непосредственные участники технического прогресса подвергнуты целой серии независимых исследований. Разнообразный и богатый опыт говорит нам, что семантический разбор внешних противодействий играет определяющее значение для укрепления моральных ценностей.</div>
+								 <div class="tour__link"><a href="">Читать больше</a></div>
+							 </div>
+						 </div>
+					 </div>
+				 </div>
+				 <div class="tariffs">
+					 <div class="tariffs__title title title_mid">Тарифы</div>
+					 <div class="tariffs__list row between">
+						<div class="tariffs__item">
+							<div class="tariffs__name">Эконом</div>
+							<div class="tariffs__price">34 990 ₽</div>
+							<div class="tariffs__dates dates">28 дней <span>12 мая - 10 июня</span></div>
+							<div class="tariffs__hotels">
+								<div class="tariffs__hotel hotel row">
+									<div class="hotel__img"><img src="upload/hotels/1.png" alt=""></div>
+									<div class="hotel__content">
+										<div class="hotel__name">Отель “Звезда”</div>
+										<div class="hotel__stars">
+											 <ul>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star-o"></i></li>
+											 </ul>
+										</div>
+										<div class="hotel__data">
+											<ul>
+												<li><u><i class="icon icon-sea"></i></u><span>До моря 300 м</span></li>
+												<li><u><i class="icon icon-avatar"></i></u><span>Одноместное</span></li>
+												<li><u><i class="icon icon-cutlery"></i></u><span>Завтрак</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="tariffs__hotel hotel row">
+									<div class="hotel__img"><img src="upload/hotels/2.png" alt=""></div>
+									<div class="hotel__content">
+										<div class="hotel__name">Отель “Звезда”</div>
+										<div class="hotel__stars">
+											 <ul>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star-o"></i></li>
+											 </ul>
+										</div>
+										<div class="hotel__data">
+											<ul>
+												<li><u><i class="icon icon-sea"></i></u><span>До моря 300 м</span></li>
+												<li><u><i class="icon icon-avatar"></i></u><span>Одноместное</span></li>
+												<li><u><i class="icon icon-cutlery"></i></u><span>Завтрак</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="" class="tariffs__btn btn btn_red btn_normal btn_hover-border-red">Выбрать</a>
+						</div>
+						<div class="tariffs__item">
+							<div class="tariffs__name">Стандарт</div>
+							<div class="tariffs__price">34 990 ₽</div>
+							<div class="tariffs__dates dates">28 дней <span>12 мая - 10 июня</span></div>
+							<div class="tariffs__hotels">
+								<div class="tariffs__hotel hotel row">
+									<div class="hotel__img"><img src="upload/hotels/1.png" alt=""></div>
+									<div class="hotel__content">
+										<div class="hotel__name">Отель “Звезда”</div>
+										<div class="hotel__stars">
+											 <ul>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star-o"></i></li>
+											 </ul>
+										</div>
+										<div class="hotel__data">
+											<ul>
+												<li><u><i class="icon icon-sea"></i></u><span>До моря 300 м</span></li>
+												<li><u><i class="icon icon-avatar"></i></u><span>Одноместное</span></li>
+												<li><u><i class="icon icon-cutlery"></i></u><span>Завтрак</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="tariffs__hotel hotel row">
+									<div class="hotel__img"><img src="upload/hotels/2.png" alt=""></div>
+									<div class="hotel__content">
+										<div class="hotel__name">Отель “Звезда”</div>
+										<div class="hotel__stars">
+											 <ul>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star-o"></i></li>
+											 </ul>
+										</div>
+										<div class="hotel__data">
+											<ul>
+												<li><u><i class="icon icon-sea"></i></u><span>До моря 300 м</span></li>
+												<li><u><i class="icon icon-avatar"></i></u><span>Одноместное</span></li>
+												<li><u><i class="icon icon-cutlery"></i></u><span>Завтрак</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="" class="tariffs__btn btn btn_red btn_normal btn_hover-border-red">Выбрать</a>
+						</div>
+						<div class="tariffs__item">
+							<div class="tariffs__name">Элитный</div>
+							<div class="tariffs__price">34 990 ₽</div>
+							<div class="tariffs__dates dates">28 дней <span>12 мая - 10 июня</span></div>
+							<div class="tariffs__hotels">
+								<div class="tariffs__hotel hotel row">
+									<div class="hotel__img"><img src="upload/hotels/1.png" alt=""></div>
+									<div class="hotel__content">
+										<div class="hotel__name">Отель “Звезда”</div>
+										<div class="hotel__stars">
+											 <ul>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star-o"></i></li>
+											 </ul>
+										</div>
+										<div class="hotel__data">
+											<ul>
+												<li><u><i class="icon icon-sea"></i></u><span>До моря 300 м</span></li>
+												<li><u><i class="icon icon-avatar"></i></u><span>Одноместное</span></li>
+												<li><u><i class="icon icon-cutlery"></i></u><span>Завтрак</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="tariffs__hotel hotel row">
+									<div class="hotel__img"><img src="upload/hotels/2.png" alt=""></div>
+									<div class="hotel__content">
+										<div class="hotel__name">Отель “Звезда”</div>
+										<div class="hotel__stars">
+											 <ul>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star"></i></li>
+												 <li><i class="icon icon-star-o"></i></li>
+											 </ul>
+										</div>
+										<div class="hotel__data">
+											<ul>
+												<li><u><i class="icon icon-sea"></i></u><span>До моря 300 м</span></li>
+												<li><u><i class="icon icon-avatar"></i></u><span>Одноместное</span></li>
+												<li><u><i class="icon icon-cutlery"></i></u><span>Завтрак</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="" class="tariffs__btn btn btn_red btn_normal btn_hover-border-red">Выбрать</a>
+						</div>
+					</div>
+				 </div>
+				 <div class="with">
+				 	<div class="case">
+					 <div class="with__title title title_mid">Что взять с собой?</div>
+					 <div class="with__list row">
+						 <div class="with__item">
+							 <div class="with__icon"><i class="icon icon-passport"></i></div>
+							 <div class="with__text">Заграничный паспорт нового образца, биометрический (срок действия не менее 6 месяцев)</div>
+						 </div>
+						 <div class="with__item">
+							 <div class="with__icon"><i class="icon icon-passport-copy"></i></div>
+							 <div class="with__text">Копия общегражданского паспорта (лицевая страница и страница с подпиской)</div>
+						 </div>
+						 <div class="with__item">
+							 <div class="with__icon"><i class="icon icon-portrait"></i></div>
+							 <div class="with__text">2 цветные фотографии 4*6 на белом фоне (женщина в платке)</div>
+						 </div>
+						 <div class="with__item">
+							 <div class="with__icon"><i class="icon icon-wedding-contract"></i></div>
+							 <div class="with__text">Супругам нужно иметь свидетельство о браке / о никахе (подлинник)</div>
+						 </div>
+						 <div class="with__item">
+							 <div class="with__icon"><i class="icon icon-employees"></i></div>
+							 <div class="with__text">Женщина моложе 45 лет должна сопровождаться махрамом старше 17 лет</div>
+						 </div>
+						 <div class="with__item">
+							 <div class="with__icon"><i class="icon icon-paper"></i></div>
+							 <div class="with__text">Для неэтнических мусульман: свидетельство о принятии Ислама</div>
+						 </div>
+					 </div>
+					</div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	 <div class="materials">
+		 <div class="case">
+			 <div class="materials__title title title_mid">Полезные материалы</div>
+			 <div class="materials__list">
+				 <div class="news__list news__list_small news__list_double row">
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+					 <div class="news__item">
+						 <div class="news__img"><img src="upload/articles/small/1.png" alt=""></div>
+						 <div class="news__content">
+							 <div class="news__date">12: 34 / 07.05.2018</div>
+							 <div class="news__text"><a href="">Как выгодно выбрать тур и оформить визу за один день. Рассказ туриста.</a></div>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+</main>
+
+<footer class="footer">
+	 <div class="case">
+		 <div class="footer__wrap row between">
+			 <div class="footer__left">
+				 <a href="" class="footer__logo logo logo_white"><img src="upload/logo/logo-white.png" alt="" class="logo__img"><span class="logo__text">Сервис поиска недорогих туров</span></a>
+				 <div class="footer__socials socials">
+					 <ul>
+						 <li class="vk"><a href=""><i class="icon icon-vk"></i></a></li>
+						 <li class="fb"><a href=""><i class="icon icon-facebook"></i></a></li>
+						 <li class="tw"><a href=""><i class="icon icon-twitter"></i></a></li>
+						 <li class="inst"><a href=""><i class="icon icon-instagram-white"></i></a></li>
+						 <li class="yt"><a href=""><i class="icon icon-youtube-white"></i></a></li>
+					 </ul>
+				 </div>
+				 <div class="footer__copy copy">2018 г. Все права защищены</div>
+			 </div>
+			 <div class="footer__middle row between">
+				 <div class="footer__nav">
+					 <ul>
+						 <li><a href="">Главная</a></li>
+						 <li><a href="">Туры</a></li>
+						 <li><a href="">Новости</a></li>
+						 <li><a href="">Авиабилеты</a></li>
+						 <li><a href="">Виза</a></li>
+					 </ul>
+				 </div>
+				 <div class="footer__nav">
+					 <ul>
+						 <li><a href="">Новости</a></li>
+						 <li><a href="">Статьи</a></li>
+						 <li><a href="">Компания</a></li>
+						 <li><a href="">Контакты</a></li>
+					 </ul>
+				 </div>
+			 </div>
+			 <div class="footer__right">
+				 <div class="footer__phone phone">
+					 <div class="panel__number number number_white"><i class="icon icon-phone-white"></i><a href="tel:+78004554545">8 800 455 45 45</a></div>
+					 <div class="panel__callback callback callback_white"><a data-fancybox data-src="#popup-callback" href="javascript:;">Заказать звонок</a></div>
+				 </div>
+				 <div class="footer__exchange exchange row">
+					 <div class="exchange__item row">
+						 <div class="exchange__icon"><i class="icon icon-dollar"></i></div>
+						 <div class="exchange__content">
+							 <div class="exchange__name">USD</div>
+							 <div class="exchange__counts"><span>63,55</span> +0,62</div>
+						 </div>
+					 </div>
+					 <div class="exchange__item row">
+						 <div class="exchange__icon"><i class="icon icon-euro"></i></div>
+						 <div class="exchange__content">
+							 <div class="exchange__name">EUR</div>
+							 <div class="exchange__counts"><span>75?38</span> +0,62</div>
+						 </div>
+					 </div>
+				 </div>
+				 <div class="footer__dev dev">Сайт разработан - <a href="" target="_blank">StudioName</a></div>
+			 </div>
+		 </div>
+	 </div>
+	 <div class="up-btn"><i class="icon icon-arrow-top-white"></i></div>
+</footer>
+<div class="popup popup_callback" id="popup-callback">
+	<div class="popup__title">Заказ обратного звонка</div>
+	<div class="popup__wrap">
+		<input type="text" class="popup__input input input_normal" placeholder="Имя">
+		<input type="text" class="popup__input input input_normal input_phone" placeholder="Телефон">
+		<button class="popup__btn btn btn_red btn_hover-border-red btn_normal">Отправить</button>
+	</div>
+</div>
+</body>
+</html>
+
