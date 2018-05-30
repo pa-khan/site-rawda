@@ -1,0 +1,251 @@
+.icon-arrow-left-gray {
+  background-image: url(../../img/sprite.png);
+  background-position: -214px -162px;
+  width: 22px;
+  height: 16px; }
+
+.icon-arrow-left-red {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -197px;
+  width: 22px;
+  height: 16px; }
+
+.icon-arrow-right-gray {
+  background-image: url(../../img/sprite.png);
+  background-position: -214px -178px;
+  width: 22px;
+  height: 16px; }
+
+.icon-arrow-right-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -22px -197px;
+  width: 22px;
+  height: 16px; }
+
+.icon-arrow-top-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -214px -59px;
+  width: 19px;
+  height: 27px; }
+
+.icon-arrow-top-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -214px -32px;
+  width: 19px;
+  height: 27px; }
+
+.icon-avatar {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -213px;
+  width: 17px;
+  height: 19px; }
+
+.icon-books {
+  background-image: url(../../img/sprite.png);
+  background-position: -60px -57px;
+  width: 55px;
+  height: 55px; }
+
+.icon-calendar {
+  background-image: url(../../img/sprite.png);
+  background-position: -28px -169px;
+  width: 26px;
+  height: 24px; }
+
+.icon-car {
+  background-image: url(../../img/sprite.png);
+  background-position: -117px -99px;
+  width: 48px;
+  height: 25px; }
+
+.icon-cutlery {
+  background-image: url(../../img/sprite.png);
+  background-position: -83px -169px;
+  width: 21px;
+  height: 15px; }
+
+.icon-delivery {
+  background-image: url(../../img/sprite.png);
+  background-position: -60px 0px;
+  width: 57px;
+  height: 57px; }
+
+.icon-diplom {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -60px;
+  width: 51px;
+  height: 64px; }
+
+.icon-dollar {
+  background-image: url(../../img/sprite.png);
+  background-position: -202px -99px;
+  width: 12px;
+  height: 20px; }
+
+.icon-employees {
+  background-image: url(../../img/sprite.png);
+  background-position: -117px -54px;
+  width: 51px;
+  height: 45px; }
+
+.icon-euro {
+  background-image: url(../../img/sprite.png);
+  background-position: -214px -86px;
+  width: 21px;
+  height: 21px; }
+
+.icon-facebook {
+  background-image: url(../../img/sprite.png);
+  background-position: -236px 0px;
+  width: 11px;
+  height: 19px; }
+
+.icon-flight-departures {
+  background-image: url(../../img/sprite.png);
+  background-position: -54px -169px;
+  width: 29px;
+  height: 15px; }
+
+.icon-guide {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 60px;
+  height: 60px; }
+
+.icon-instagram-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -190px -124px;
+  width: 23px;
+  height: 23px; }
+
+.icon-instagram-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -17px -213px;
+  width: 17px;
+  height: 17px; }
+
+.icon-leadership {
+  background-image: url(../../img/sprite.png);
+  background-position: -117px 0px;
+  width: 54px;
+  height: 54px; }
+
+.icon-magnifying-glass-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -214px -143px;
+  width: 19px;
+  height: 19px; }
+
+.icon-magnifying-glass-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -214px -124px;
+  width: 19px;
+  height: 19px; }
+
+.icon-marker {
+  background-image: url(../../img/sprite.png);
+  background-position: -214px 0px;
+  width: 22px;
+  height: 32px; }
+
+.icon-muslim {
+  background-image: url(../../img/sprite.png);
+  background-position: -103px -124px;
+  width: 30px;
+  height: 38px; }
+
+.icon-paper {
+  background-image: url(../../img/sprite.png);
+  background-position: -133px -124px;
+  width: 29px;
+  height: 37px; }
+
+.icon-passport-copy {
+  background-image: url(../../img/sprite.png);
+  background-position: -70px -124px;
+  width: 33px;
+  height: 43px; }
+
+.icon-passport {
+  background-image: url(../../img/sprite.png);
+  background-position: -171px -50px;
+  width: 35px;
+  height: 49px; }
+
+.icon-phone-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -162px -124px;
+  width: 28px;
+  height: 28px; }
+
+.icon-phone-white {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -169px;
+  width: 28px;
+  height: 28px; }
+
+.icon-portrait {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -124px;
+  width: 36px;
+  height: 45px; }
+
+.icon-sea {
+  background-image: url(../../img/sprite.png);
+  background-position: -214px -107px;
+  width: 22px;
+  height: 17px; }
+
+.icon-star-o {
+  background-image: url(../../img/sprite.png);
+  background-position: -236px -29px;
+  width: 11px;
+  height: 10px; }
+
+.icon-star {
+  background-image: url(../../img/sprite.png);
+  background-position: -236px -19px;
+  width: 11px;
+  height: 10px; }
+
+.icon-twitter {
+  background-image: url(../../img/sprite.png);
+  background-position: -124px -169px;
+  width: 17px;
+  height: 13px; }
+
+.icon-visa {
+  background-image: url(../../img/sprite.png);
+  background-position: -171px 0px;
+  width: 43px;
+  height: 50px; }
+
+.icon-vk {
+  background-image: url(../../img/sprite.png);
+  background-position: -60px -112px;
+  width: 18px;
+  height: 12px; }
+
+.icon-wedding-contract {
+  background-image: url(../../img/sprite.png);
+  background-position: -36px -124px;
+  width: 34px;
+  height: 43px; }
+
+.icon-wifi {
+  background-image: url(../../img/sprite.png);
+  background-position: -44px -197px;
+  width: 20px;
+  height: 16px; }
+
+.icon-youtube-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -171px -99px;
+  width: 31px;
+  height: 23px; }
+
+.icon-youtube-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -104px -169px;
+  width: 20px;
+  height: 14px; }

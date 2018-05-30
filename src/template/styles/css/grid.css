@@ -5,6 +5,8 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto; }
+  .case_more {
+    width: 1640px; }
 
 .col, .row {
   display: -webkit-box;

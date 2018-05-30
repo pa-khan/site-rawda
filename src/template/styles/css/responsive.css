@@ -1,11 +1,442 @@
-@media screen and (max-width: 1199px) {
-  .case {
-    width: 950px; } }
+@media screen and (max-width: 1650px) {
+  .case_more {
+    width: 1170px; }
+  .panel__logo {
+    margin-right: 18px; }
+  .panel__lang {
+    margin-left: 30px; }
+  .hidden-1650 {
+    display: none; } }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1220px) {
   .case {
-    width: 750px; } }
+    width: 950px; }
+  .panel__logo {
+    margin-right: 30px; }
+  .panel__nav {
+    width: 300px; }
+  .banner__input {
+    width: 185px; }
+  .tours-main__list {
+    margin-left: -10px;
+    margin-right: -10px; }
+  .tours-main__item {
+    width: 33.333%;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .articles-main__item:nth-of-type(1) {
+    padding-right: 15px; }
+  .articles-main__item:nth-of-type(2) {
+    padding-left: 0; }
+  .news__list_big .news__item {
+    width: 215px; }
+  .visa {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .visa__img {
+      left: 15px;
+      z-index: 1;
+      display: none; }
+    .visa__title {
+      margin-bottom: 10px; }
+    .visa__content {
+      position: relative;
+      z-index: 2;
+      margin-left: 0;
+      max-width: 100%; }
+  .media {
+    padding-bottom: 30px; }
+    .media__item {
+      width: 100%;
+      max-width: 555px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px; }
+  .instagram {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .instagram__item {
+      width: 123px;
+      margin-bottom: 10px; }
+  .article__wrap {
+    width: 690px; }
+  .article__more {
+    width: -webkit-calc(100% - 690px);
+    width: calc(100% - 690px); }
+  .article__subtitle {
+    margin-bottom: 20px;
+    font-size: 22px; }
+  .text p {
+    margin-bottom: 20px; }
+  .text h2 {
+    font-size: 22px;
+    margin-bottom: 10px; }
+  .news__list_page {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .tours .tours__list {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .tours .tours__item {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .tour__right {
+    width: 475px; }
+  .tour__dates {
+    position: relative;
+    margin-bottom: 10px; }
+  .tariffs {
+    padding-bottom: 0; }
+    .tariffs .tariffs__list {
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .tariffs .tariffs__item {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px; }
+  .footer__nav {
+    display: none; } }
+
+@media screen and (max-width: 992px) {
+  .case {
+    width: 750px; }
+  .panel {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    .panel .panel__nav, .panel .panel__lang, .panel .panel__phone {
+      display: none; }
+    .panel__wrap {
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+  .mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: -webkit-calc(100% - 70px);
+    width: calc(100% - 70px);
+    max-width: 600px;
+    background-color: #fff;
+    z-index: 11;
+    display: block;
+    -webkit-box-shadow: -1px 2px 14px 2px rgba(0, 0, 0, 0.17);
+            box-shadow: -1px 2px 14px 2px rgba(0, 0, 0, 0.17);
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .mobile-nav_toggle {
+      -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+              transform: translateX(0); }
+    .mobile-nav .panel__nav li {
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      display: block; }
+    .mobile-nav .panel__nav a {
+      padding-left: 20px;
+      padding-right: 20px; }
+    .mobile-nav .panel__nav, .mobile-nav .panel__lang, .mobile-nav .panel__phone {
+      width: auto;
+      margin-right: 0;
+      margin-left: 0; }
+    .mobile-nav .panel__nav {
+      padding-top: 12px; }
+      .mobile-nav .panel__nav a {
+        font-size: 20px; }
+    .mobile-nav .panel__lang {
+      margin: 12px 20px 14px;
+      max-width: 230px; }
+    .mobile-nav .panel__phone {
+      text-align: left;
+      padding-left: 20px; }
+    .mobile-nav .panel__callback {
+      margin-top: 7px; }
+  .mobile-btn {
+    display: block;
+    width: 40px;
+    cursor: pointer; }
+    .mobile-btn span {
+      position: relative;
+      display: block;
+      background-color: #000;
+      width: 100%;
+      height: 4px;
+      margin-bottom: 7px;
+      -webkit-transition: .3s;
+      transition: .3s; }
+      .mobile-btn span:last-of-type {
+        margin-bottom: 0; }
+    .mobile-btn_toggle span:nth-of-type(1) {
+      top: 5.5px;
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg); }
+    .mobile-btn_toggle span:nth-of-type(2) {
+      display: none; }
+    .mobile-btn_toggle span:nth-of-type(3) {
+      top: -5.5px;
+      -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
+  .main {
+    padding-top: 75px; }
+  .logo__text {
+    max-width: 110px; }
+  .banner__text {
+    padding-top: 50px;
+    margin-bottom: 40px; }
+  .banner__title {
+    font-size: 40px;
+    line-height: 46px; }
+  .banner__input {
+    width: -webkit-calc(50% - 12px);
+    width: calc(50% - 12px);
+    margin-bottom: 12px; }
+  .banner__btn {
+    width: 100%;
+    line-height: 62px; }
+  .tours-main {
+    margin-bottom: 0; }
+    .tours-main__btn {
+      width: 100%;
+      margin-top: 8px; }
+  .articles-main {
+    padding-bottom: 0; }
+    .articles-main__item {
+      width: 100%; }
+      .articles-main__item:nth-of-type(1) {
+        margin-bottom: 20px; }
+  .news__list_big .news__item {
+    width: 100%;
+    margin-bottom: 35px; }
+  .countries {
+    padding-top: 20px;
+    padding-bottom: 10px; }
+    .countries__list li {
+      width: 33.333%; }
+  .article__wrap {
+    width: 100%; }
+  .article__more {
+    display: none; }
+  .tours__labels {
+    margin-bottom: 0; }
+    .tours__labels ul {
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+  .tour__left {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    max-width: 432px;
+    width: 100%;
+    overflow: hidden; }
+  .tour__right {
+    width: 100%;
+    text-align: center; }
+  .tour__price {
+    margin-bottom: 8px; }
+  .tour__btn {
+    margin-left: auto;
+    margin-right: auto; }
+  .tour__text {
+    margin-bottom: 6px;
+    text-align: left; }
+  .tour__link {
+    text-align: left; }
+  .icons {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 15px; }
+    .icons__item {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 15px; }
+  .with__list {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .with__item {
+    width: 180px; }
+  .news__list_double .news__item {
+    width: 100%; }
+  iframe {
+    width: 100%; } }
 
 @media screen and (max-width: 767px) {
   .case {
-    width: 100%; } }
+    width: 100%; }
+  .banner__text {
+    padding-top: 35px;
+    margin-bottom: 30px; }
+  .banner__title {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 18px; }
+  .banner__desc {
+    font-size: 22px;
+    line-height: 22px; }
+  .banner__input {
+    width: 100%; }
+  .tours-main {
+    padding-top: 18px; }
+    .tours-main__title {
+      margin-bottom: 12px; }
+    .tours-main__link {
+      top: 8px; }
+    .tours-main__list {
+      margin-left: 0;
+      margin-right: 0; }
+    .tours-main__item {
+      width: 100%;
+      max-width: 360px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px; }
+  .title {
+    font-size: 28px;
+    text-align: center; }
+  .visa__btn {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
+    width: 100%; }
+  .advantages {
+    padding-top: 20px;
+    padding-bottom: 10px; }
+    .advantages__title {
+      margin-bottom: 15px; }
+    .advantages__item {
+      width: 210px; }
+    .advantages__icon {
+      margin-bottom: 10px; }
+    .advantages__text {
+      font-size: 15px;
+      line-height: 17px; }
+  .media {
+    padding-top: 25px;
+    padding-bottom: 0px; }
+    .media__title {
+      margin-bottom: 10px; }
+  .instagram {
+    margin-left: -1%;
+    margin-right: -1%; }
+    .instagram__item {
+      width: 25%;
+      margin-bottom: 2%;
+      padding-left: 1%;
+      padding-right: 1%; }
+  .countries__list li {
+    width: 50%; }
+  .tours__item {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 25px; }
+  .tours__name, .tours__date {
+    width: 100%; }
+  .pagination li {
+    font-size: 18px;
+    width: 38px;
+    height: 38px;
+    line-height: 36px; }
+  .article__wrap {
+    padding-right: 0; }
+  .icons {
+    margin-bottom: 0; }
+  .tariffs__list {
+    display: block; }
+  .tariffs__item {
+    width: 280px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    padding: 15px 10px 20px; }
+  .tariffs__btn {
+    margin-top: 15px; }
+  .hotel__img {
+    width: 40%; }
+  .hotel__content {
+    width: 60%; }
+  .with {
+    padding-top: 10px;
+    padding-bottom: 0; }
+    .with__title {
+      margin-bottom: 15px; }
+    .with__icon {
+      margin-bottom: 15px; }
+  .materials {
+    padding-top: 20px;
+    padding-bottom: 25px; }
+  .breadcrumbs {
+    margin-bottom: 20px; }
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .footer__wrap {
+      display: block; }
+    .footer__left, .footer__right {
+      margin-left: auto;
+      margin-right: auto; }
+    .footer__copy {
+      display: none; }
+    .footer__logo {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px; }
+    .footer__socials {
+      margin-bottom: 20px; }
+    .footer__phone {
+      margin-right: auto;
+      margin-bottom: 20px; }
+  .exchange {
+    margin-bottom: 20px; }
+  .dev {
+    text-align: center; }
+  .up-btn {
+    display: none; } }
+
+@media screen and (max-width: 450px) {
+  .news__list_small .news__img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px; }
+  .news__list_small .news__content {
+    width: 100%; }
+  .instagram {
+    margin-left: -1%;
+    margin-right: -1%; }
+    .instagram__item {
+      width: 50%;
+      margin-bottom: 2%;
+      padding-left: 1%;
+      padding-right: 1%; }
+      .instagram__item img {
+        margin-left: auto;
+        margin-right: auto; }
+  .countries__title {
+    margin-bottom: 10px; }
+  .countries__list li {
+    width: 100%;
+    margin-bottom: 15px; } }
+
+@media screen and (max-width: 360px) {
+  .mobile-nav .panel__number {
+    font-size: 22px; } }
