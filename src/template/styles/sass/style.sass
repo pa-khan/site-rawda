@@ -20,6 +20,9 @@ $color-1: #040404
 	border: 0
 	box-sizing: border-box
 
+html
+	cursor: default
+
 body
 	font-size: $font-size
 	font-family: $font-family-1
@@ -644,7 +647,7 @@ input, a
 .breadcrumbs
 	margin-bottom: 32px
 	li
-		font-size: 13px
+		font-size: 14px
 		font-weight: 300
 		color: #c22227
 		&:after
@@ -676,6 +679,7 @@ input, a
 		border: 2px solid transparent
 		border-radius: 50%
 		transition: .3s
+		margin: 0 3px
 		&.selected, &:hover
 			border-color: #c22227
 			background-color: #fff2f2
@@ -1120,3 +1124,7 @@ input, a
 
 .mobile-btn
 	display: none
+
+.compensate-for-scrollbar
+	margin-right: 0 !important
+	overflow: inherit !important

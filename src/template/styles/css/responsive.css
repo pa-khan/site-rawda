@@ -121,19 +121,19 @@
   .mobile-nav {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     bottom: 0;
-    width: -webkit-calc(100% - 70px);
-    width: calc(100% - 70px);
+    width: -webkit-calc(100% - 97px);
+    width: calc(100% - 97px);
     max-width: 600px;
     background-color: #fff;
     z-index: 11;
     display: block;
     -webkit-box-shadow: -1px 2px 14px 2px rgba(0, 0, 0, 0.17);
             box-shadow: -1px 2px 14px 2px rgba(0, 0, 0, 0.17);
-    -webkit-transform: translateX(-100%);
-        -ms-transform: translateX(-100%);
-            transform: translateX(-100%);
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
     -webkit-transition: .3s;
     transition: .3s; }
     .mobile-nav_toggle {
@@ -167,7 +167,11 @@
   .mobile-btn {
     display: block;
     width: 40px;
-    cursor: pointer; }
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+    top: 27px;
+    z-index: 100; }
     .mobile-btn span {
       position: relative;
       display: block;
@@ -230,7 +234,9 @@
   .article__wrap {
     width: 100%; }
   .article__more {
-    display: none; }
+    width: 100%;
+    margin-top: 25px;
+    padding-left: 0; }
   .tours__labels {
     margin-bottom: 0; }
     .tours__labels ul {
@@ -278,7 +284,9 @@
   .news__list_double .news__item {
     width: 100%; }
   iframe {
-    width: 100%; } }
+    width: 100%; }
+  .news__list_big .news__item {
+    width: 263px; } }
 
 @media screen and (max-width: 767px) {
   .case {
@@ -410,16 +418,30 @@
     margin-bottom: 20px; }
   .dev {
     text-align: center; }
-  .up-btn {
-    display: none; } }
-
-@media screen and (max-width: 450px) {
+  .news__list_big .news__item {
+    width: -webkit-calc(50% - 30px);
+    width: calc(50% - 30px); }
+  .news__list_big .news__img img {
+    margin-left: auto;
+    margin-right: auto; }
+  .news__list_small .news__item {
+    width: -webkit-calc(50% - 30px);
+    width: calc(50% - 30px); }
   .news__list_small .news__img {
     width: 100%;
     margin-right: 0;
     margin-bottom: 10px; }
+    .news__list_small .news__img img {
+      margin-left: auto;
+      margin-right: auto; }
   .news__list_small .news__content {
     width: 100%; }
+  .up-btn {
+    display: none; } }
+
+@media screen and (max-width: 450px) {
+  .news__item {
+    width: 100% !important; }
   .instagram {
     margin-left: -1%;
     margin-right: -1%; }

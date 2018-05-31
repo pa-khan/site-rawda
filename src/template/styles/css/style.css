@@ -452,6 +452,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+html {
+  cursor: default; }
+
 body {
   font-size: 18px;
   font-family: "Circe", sans-serif;
@@ -1050,7 +1053,7 @@ input, a {
 .breadcrumbs {
   margin-bottom: 32px; }
   .breadcrumbs li {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
     color: #c22227; }
     .breadcrumbs li:after {
@@ -1085,7 +1088,8 @@ input, a {
   -webkit-border-radius: 50%;
           border-radius: 50%;
   -webkit-transition: .3s;
-  transition: .3s; }
+  transition: .3s;
+  margin: 0 3px; }
   .pagination li.selected, .pagination li:hover {
     border-color: #c22227;
     background-color: #fff2f2; }
@@ -1493,3 +1497,7 @@ input, a {
 
 .mobile-btn {
   display: none; }
+
+.compensate-for-scrollbar {
+  margin-right: 0 !important;
+  overflow: inherit !important; }
